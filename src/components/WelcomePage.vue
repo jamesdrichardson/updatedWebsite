@@ -1,15 +1,18 @@
 <script setup lang="ts">
-
+import ContactFormVue from '@/components/ContactForm.vue';
 </script>
 
 <template>
   <div class="greetings">
-    <h1 class="home-head">Hi, Welcome to my website!</h1>
+    <h1 class="home-head">Hi, welcome to my website!</h1>
     <h3>
-      Click one of the links on the left to learn more about me! CLick the icons below to access
-      my GitHub and LinkedIn.
+      Click one of the links on the left to learn more about me! Click the icons below to access
+      my GitHub and LinkedIn. You can also contact me using the form below.
       <br/><br/>
     </h3>
+    <div id="contact">
+      <ContactFormVue></ContactFormVue>
+    </div>
     <div id="findme">
       <ul id="social_icons">
         <li><a href="https://www.github.com/jamesdrichardson"><img class="logo"
